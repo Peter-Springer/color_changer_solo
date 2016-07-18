@@ -1,0 +1,42 @@
+body {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 700;
+  height: 100px;
+  width: 200px;
+  border: 10px solid;
+  border-color: #B2479A #CC7FB5;
+  background: #E5B6D5;
+  margin: 10px;
+}
+
+button:hover {
+  border-color: #CC7FB5 #E5B6D5;
+  background: #B2479A;
+}
+
+@media (max-width: 500px) {
+    .container {
+      display: flex;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    .reset-button {
+      height: 50px;
+      font-size: 20px;
+      margin: 15px;
+    }
+}

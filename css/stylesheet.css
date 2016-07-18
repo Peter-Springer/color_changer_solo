@@ -1,5 +1,11 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  background-color: white;
 }
 
 .container {
@@ -28,15 +34,15 @@ button:hover {
 }
 
 @media (max-width: 500px) {
-    .container {
-      display: flex;
-      height: 100vh;
-      flex-direction: column;
-    }
+  .container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
 
-    .reset-button {
-      height: 50px;
-      font-size: 20px;
-      margin: 15px;
-    }
+  .reset-button {
+    height: 50px;
+    font-size: 20px;
+    margin: 15px;
+  }
 }

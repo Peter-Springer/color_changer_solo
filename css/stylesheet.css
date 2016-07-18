@@ -33,7 +33,8 @@ button:hover {
   background: #B2479A;
 }
 
-@media (max-width: 500px) {
+@media
+(max-width: 620px) {
   .container {
     display: flex;
     height: 100vh;
